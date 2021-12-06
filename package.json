@@ -2,6 +2,7 @@
   "name": "talk-no-jutsu",
   "version": "1.0.0",
   "description": "Let's move from text to audio, Here Come text to video.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/2112akilesh/Talk-no-jutsu/issues"
   },
-  "homepage": "https://github.com/2112akilesh/Talk-no-jutsu#readme"
+  "homepage": "https://github.com/2112akilesh/Talk-no-jutsu#readme",
+  "dependencies": {
+    "@modzy/modzy-sdk": "^1.0.7",
+    "express": "^4.17.1"
+  }
 }
